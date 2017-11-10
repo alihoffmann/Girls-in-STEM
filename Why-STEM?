@@ -13,3 +13,75 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Rozha+One" rel="stylesheet"> 	
 </head>
 <body>
+
+<!--Nav Bar-->
+
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Girls in STEM</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse container col-sm-6" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Why STEM?</a>
+      </li>
+	<!-- Key Figures -->  
+	  <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Key Figures
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Sarah Adler</a>
+          <a class="dropdown-item" href="#">Other Name</a>
+		  <a class="dropdown-item" href="#">John Doe</a>
+        </div>
+      </li>
+	<!-- Jobs -->  
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Jobs
+        </a> 
+	<!-- Engineering Careers -->	
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+		  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink-special" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Engineering</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Aerospace Engineering</a>
+          <a class="dropdown-item" href="#">Chemical Engineering</a>
+		  <a class="dropdown-item" href="#">Civil Engineering</a>
+          <a class="dropdown-item" href="#">Computer Engineering</a>
+		  <a class="dropdown-item" href="#">Industrial Engineering</a>
+          <a class="dropdown-item" href="#">Manufacturing Engineering</a>
+		  <a class="dropdown-item" href="#">Mechanical Engineering</a>  
+		</div>
+
+	<!-- Technology -->	
+		  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink-special" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Technology</a>
+			<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+			  <a class="dropdown-item" href="#">Computer Scientist</a>
+			  <a class="dropdown-item" href="#">Information Security</a>
+			  <a class="dropdown-item" href="#">Software Engineering</a>
+<p>			  <a class="dropdown-item" href="#">Web Developer</a>
+			</div>
+        </div>
+	  </li>	
+	<!-- How to Get Involved -->	
+	   <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          How to Get Invovled
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Challenges</a>
+          <a class="dropdown-item" href="#">Useful Links</a>
+		  <a class="dropdown-item" href="#">Programs & Organizations</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
