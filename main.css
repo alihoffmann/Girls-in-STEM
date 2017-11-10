@@ -48,6 +48,10 @@ section .row img {
 	color: #ffffff;
 }
 
+.jumbotron h1 {
+	font-size: 50px;
+}
+
 .layer {
     background-color: rgba(118, 132, 137, 0.7);
     position: relative;
