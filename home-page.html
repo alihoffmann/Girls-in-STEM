@@ -8,97 +8,109 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-  
-  <!-- Font -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Rozha+One" > 	
   <link rel="stylesheet" type="text/css" href="main.css"/>
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Rozha+One" rel="stylesheet"> 	
 </head>
 <body>
+
   <!--Nav Bar-->
+
 
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">Girls in STEM</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse container col-sm-6" id="navbarNavDropdown"> 
-      <!-- <div class="collapse navbar-collapse" id="navbarNavDropdown">  -->
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Why-STEM.html">Why STEM?</a>
-          </li>
-          <!-- Key Figures -->  
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkKeyFigures" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Key Figures
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Sarah Adler</a>
-              <a class="dropdown-item" href="#">Other Name</a>
-              <a class="dropdown-item" href="#">John Doe</a>
-            </div>
-          </li>
-          <!-- Jobs -->  
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Jobs
-            </a> 
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <!-- Engineering Careers -->	
-              <!-- <li class="dropdown-item" aria-labelledby="navbarDropdownMenuLink"> -->
-                <li class="dropdown-item">
-                  <a class="nav-link dropdown-toggle color-black" href="#" id="navbarDropdownMenuLinkEngJobs" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Engineering</a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item" href="#">Aerospace Engineering</a></li>
-                    <li><a class="dropdown-item" href="#">Chemical Engineering</a></li>
-                    <li><a class="dropdown-item" href="#">Civil Engineering</a></li>
-                    <li><a class="dropdown-item" href="#">Computer Engineering</a></li>
-                    <li><a class="dropdown-item" href="#">Industrial Engineering</a></li>
-                    <li><a class="dropdown-item" href="#">Manufacturing Engineering</a></li>
-                    <li><a class="dropdown-item" href="#">Mechanical Engineering</a></li>
-                  </ul>
-                </li>
-            <!-- Technology -->	
-                <li class="dropdown-item">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkTechJobs" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Technology</a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item" href="#">Computer Scientist</a></li>
-                    <li><a class="dropdown-item" href="#">Information Security</a></li>
-                    <li><a class="dropdown-item" href="#">Software Engineering</a></li>
-                    <li><a class="dropdown-item" href="#">Web Developer</a></li>
-                  </ul>
-                </li>
-           </ul> 
-         </li>
-         <!-- How to Get Involved -->	
-         <li class="nav-item dropdown">
+    <div class="collapse navbar-collapse container col-sm-6" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Why-STEM?">Why STEM?</a>
+        </li>
+        <!-- Key Figures -->  
+        <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            How to Get Invovled
+            Key Figures
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">Challenges</a>
-            <a class="dropdown-item" href="#">Useful Links</a>
-            <a class="dropdown-item" href="#">Programs & Organizations</a>
+            <a class="dropdown-item" href="#">Sarah Adler</a>
+            <a class="dropdown-item" href="#">Other Name</a>
+            <a class="dropdown-item" href="#">John Doe</a>
           </div>
         </li>
-      </ul>
-    </div>
-  </nav>
+        <!-- Jobs -->  
+        <li class="nav-item dropdown">
+
+          <a class="nav-link dropdown-toggle" href="#" id="jobs" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Jobs
+          </a> 
+          <!-- Engineering Careers -->	
+          <ul class="dropdown-menu" aria-labelledby="jobs">
+
+            <li class="dropdown-submenu">
+
+              <a class="nav-link dropdown-toggle color-black" href="#" id="engineering" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Engineering</a>
+
+              <div class="dropdown-menu" aria-labelledby="engineering">
+                <a class="dropdown-item" href="#">Aerospace Engineering</a>
+                <a class="dropdown-item" href="#">Chemical Engineering</a>
+                <a class="dropdown-item" href="#">Civil Engineering</a>
+                <a class="dropdown-item" href="#">Computer Engineering</a>
+                <a class="dropdown-item" href="#">Industrial Engineering</a>
+                <a class="dropdown-item" href="#">Manufacturing Engineering</a>
+                <a class="dropdown-item" href="#">Mechanical Engineering</a>  
+              </div>
+            </li>
+
+            <li class="dropdown-submenu">
+
+              <!-- Technology -->	
+              <a class="nav-link dropdown-toggle color-black" color-black href="#" id="technology" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Technology</a>
+
+              <div class="dropdown-menu" aria-labelledby="technology">
+               <a class="dropdown-item" href="#">Computer Scientist</a>
+               <a class="dropdown-item" href="#">Information Security</a>
+               <a class="dropdown-item" href="#">Software Engineering</a>
+               <a class="dropdown-item" href="#">Web Developer</a>
+
+             </div>
+           </li>
 
 
-  <!-- Gallery wall of tech stuff?/ alternative to annoying carousel -->
-  <section class="jumbotron layer">
-   <div class="container">
-     <div class="row text-center">
-       <h1>Science|Technology|Engineering|Math</h1>
-     </div>
+
+
+         </ul>
+       </li>	
+       <!-- How to Get Involved -->	
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          How to Get Invovled
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Challenges</a>
+          <a class="dropdown-item" href="#">Useful Links</a>
+          <a class="dropdown-item" href="#">Programs & Organizations</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+<!-- Gallery wall of tech stuff?/ alternative to annoying carousel -->
+<section class="jumbotron layer">
+ <div class="container">
+   <div class="row text-center">
+     <p> <h1>Science|Technology|Engineering|Math</h1> </p>
+
    </div>
- </section>  
+ </div>
+</section>  
 </section>
 <section class="container">
   <div class="row">
@@ -123,26 +135,41 @@
   </div>
 </section>
 
+
+
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
-<script>
-  $('.dropdown-menu a.dropdown-toggle').on('click', function(e) {
-    if (!$(this).next().hasClass('show')) {
-      $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
-    }
-    var $subMenu = $(this).next(".dropdown-menu");
-    $subMenu.toggleClass('show');
+<script type="text/javascript">
 
 
-    $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function(e) {
-      $('.dropdown-submenu .show').removeClass("show");
+  $(document).ready ( function(){
+
+
+    $('.dropdown-menu a.dropdown-toggle').mouseover( function(e) {
+
+      if (!$(this).next().hasClass('show')) {
+        $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
+      }
+
+      var $subMenu = $(this).next(".dropdown-menu");
+      $subMenu.toggleClass('show');
+
+
+      $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function(e) {
+        $('.dropdown-submenu .show').removeClass("show");
+      });
+
+
+      return false;
     });
 
 
-    return false;
-  });
+  })
+
 </script>
+
+
 </body>
 </html>
