@@ -1,1 +1,0 @@
-# Girls-in-STEM
