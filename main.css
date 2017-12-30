@@ -1,7 +1,7 @@
-
+<!DOCTYPE css>
 <css>
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 500;
 }
 
@@ -10,21 +10,23 @@ header h1 {
   font-weight: 700;
   margin: 0;
 }
-
+ h2 {
+ 	font-family: 'Raleway' , sans-serif;
+ 	font-weight: bold;
+ }
 #navbarDropdownMenuLink-special {
 	color: black;
 }
 
 .navbar {
-	font-family: 'Roboto', sans-serif;
-	font-size: 20px;
-	padding-right: 15px;
-
+	font-family: 'Raleway', sans-serif;
+	background-color: #007269;
+	font-color: #007269;
 }
 
 .navbar-brand {
 	font-family: 'Rozha One', serif;
-	font-size: 30px;
+	font-size: 20px;
 }
 
 .navbar-collapse {
@@ -50,6 +52,9 @@ section .row img {
 
 .jumbotron h1 {
 	font-size: 50px;
+	font-family: 'Raleway' , sans-serif;
+	font-weight: bold;
+	justify-content: center;
 }
 
 .layer {
@@ -77,14 +82,58 @@ section .row img {
   margin-right: .1rem;
 }
 
- #navbarDropdownMenuLinkEngJobs {
-	color: black;
-}
-#navbarDropdownMenuLinkTechJobs {
+ #navbarDropdownMenuLinkEngJobs, #navbarDropdownMenuLinkTechJobs {
 	color: black;
 }
 
-.container{
-	margin-right: 0px;
+#navbarNavDropdown {
+	justify-content: right;
 }
+
+.WhySTEM, .SarahAdler {
+	position: relative;
+	top: 55px;
+	font-family: 'Raleway', sans-serif;
+	justify-content: center;
+}
+ 
+.explanation {
+ 	position: relative;
+	top: 65px;
+	font-size: 18px;
+	font-family: 'Titillium Web', sans-serif;
+	justify-content: center;
+ }
+
+.container h1 {
+	font-weight: 900;
+}
+
+.SarahAdlername {
+	position: relative;
+	top: 55px;
+	font-family: 'Raleway' , sans-serif;
+	justify-content: center;
+	align-items: center;
+}
+
+.SarahAdler {
+	float: right;
+}
+
+.SecretSauce {
+	float: left;
+	height: 300px;
+}
+
+.divider-honey {
+	background-color: #92B5BF;
+}
+
+.divider-honey {
+    margin: 150px auto 10px;
+    height: 4px;
+    width: 50px;
+ }
+
 </css>
