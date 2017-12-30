@@ -94,7 +94,7 @@ section .row img {
 	position: relative;
 	top: 55px;
 	font-family: 'Raleway', sans-serif;
-	justify-content: center;
+	align-content: center;
 }
  
 .explanation {
