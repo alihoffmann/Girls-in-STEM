@@ -27,8 +27,8 @@
 <body>
 
   <!--Nav Bar-->
-  <div w3-include-html="NavBar.html"></div> 
-
+ <!-- <div w3-include-html="NavBar.html"></div> -->
+<!--<?php include("includes/navigation.html");?>-->
 
   <div class="container explanationSTEM text-center containerorange">
     <div class= "row">

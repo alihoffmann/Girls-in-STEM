@@ -90,6 +90,5 @@
 
       return false;
     });
-  </script> -->
+  </script>
 
-<!--<script src="navbar.js" type="text/javascript"></script>-->

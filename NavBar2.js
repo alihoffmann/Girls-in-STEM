@@ -1,3 +1,5 @@
+document.write ('\
+\
 
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
   <a class="navbar-brand" href="home-page.html">Girls in STEM</a>
@@ -73,23 +75,4 @@
       </ul> 
     </div>
   </nav>  
-<!--
-  <script>
-    $('.dropdown-menu a.dropdown-toggle').on('click', function(e) {
-      if (!$(this).next().hasClass('show')) {
-        $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
-      }
-      var $subMenu = $(this).next(".dropdown-menu");
-      $subMenu.toggleClass('show');
-
-
-      $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function(e) {
-        $('.dropdown-submenu .show').removeClass("show");
-      });
-
-
-      return false;
-    });
-  </script> -->
-
-<!--<script src="navbar.js" type="text/javascript"></script>-->
+  \')

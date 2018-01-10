@@ -1,10 +1,13 @@
-<!DOCTYPE css>
-<css>
+
 body {
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
+  background-color: oldlace;
 }
-
+ 
+ body .containerorange {
+ 	background-color: lightcyan;
+ }
 
 header h1 {
   font-weight: 700;
@@ -94,36 +97,36 @@ section .row img {
 	position: relative;
 	top: 55px;
 	font-family: 'Raleway', sans-serif;
-	align-content: center;
+	justify-content: center;
 }
  
 .explanation {
  	position: relative;
 	top: 65px;
 	font-size: 18px;
-	font-family: 'Titillium Web', sans-serif;
-	justify-content: center;
+	font-family: 'Titillium Web', sans-serif; 
  }
 
 .container h1 {
 	font-weight: 900;
+	font-size: 50px;
 }
 
 .SarahAdlername {
 	position: relative;
-	top: 55px;
+	top: 70px;
 	font-family: 'Raleway' , sans-serif;
 	justify-content: center;
-	align-items: center;
+
 }
 
 .SarahAdler {
-	float: right;
+	float: right
 }
 
 .SecretSauce {
 	float: left;
-	height: 300px;
+	width: 100%;
 }
 
 .divider-honey {
@@ -131,9 +134,13 @@ section .row img {
 }
 
 .divider-honey {
-    margin: 150px auto 10px;
-    height: 4px;
+    margin: 20px auto 10px;
+    height: 5px;
     width: 50px;
  }
 
-</css>
+.col-lg-4, .col-lg-5 {
+	height: 450px;
+}
+
+

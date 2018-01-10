@@ -1,4 +1,3 @@
-
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
   <a class="navbar-brand" href="home-page.html">Girls in STEM</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,7 +27,7 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkJobs" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Jobs
-          </a>
+          </a> 
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkJobs">
             <!-- Engineering Careers -->  
             <!-- <li class="dropdown-item" aria-labelledby="navbarDropdownMenuLink"> -->
@@ -70,26 +69,24 @@
             </div>
           </li>
         </li>
-      </ul> 
-    </div>
-  </nav>  
-<!--
-  <script>
-    $('.dropdown-menu a.dropdown-toggle').on('click', function(e) {
-      if (!$(this).next().hasClass('show')) {
-        $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
-      }
-      var $subMenu = $(this).next(".dropdown-menu");
-      $subMenu.toggleClass('show');
+      </div>
+    </nav>  
 
 
-      $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function(e) {
-        $('.dropdown-submenu .show').removeClass("show");
+    <script>
+      $('.dropdown-menu a.dropdown-toggle').on('click', function(e) {
+        if (!$(this).next().hasClass('show')) {
+          $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
+        }
+        var $subMenu = $(this).next(".dropdown-menu");
+        $subMenu.toggleClass('show');
+
+
+        $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function(e) {
+          $('.dropdown-submenu .show').removeClass("show");
+        });
+
+
+        return false;
       });
-
-
-      return false;
-    });
-  </script> -->
-
-<!--<script src="navbar.js" type="text/javascript"></script>-->
+    </script>
