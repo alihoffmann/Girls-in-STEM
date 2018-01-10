@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <title id="title">Girls in STEM</title>
@@ -8,28 +8,26 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-  
   <!-- Font -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Rozha+One" > 	
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Rozha+One" rel="stylesheet"> 
   <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Raleway|Titillium+Web" rel="stylesheet">
 
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="main.css"/>
-  <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>  -->
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
- 
+  <!-- Script for bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
   <!--script to include-->
-  <script src="https://www.w3schools.com/lib/w3.js"></script> 
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
+
+
 </head>
+
 <body>
-
-
-
-
+	<!--Nav Bar-->
 <!--script for dropdown-->
-<script>
+<!--<script>
   $('.dropdown-menu a.dropdown-toggle').on('click', function(e) {
     if (!$(this).next().hasClass('show')) {
       $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
@@ -45,8 +43,27 @@
 
     return false;
   });
-</script>
+</script>-->
+<!--<div data-includeHTML="NavBar.html"></div>
+<embed type="text/html" src="NavBar.inc">-->
+<div w3-include-html="NavBar.html"></div> 
 
+	<script>
+		w3.includeHTML();
+	</script>
 
+	<div class="container Challenges containerorange">
+		<div class= "row">
+			<div class= "col-lg"></div>
+			<div class="col-lg"> 
+				<h1 class="ChallengesaActivities text-center">STEM Challenges & Activities</h1>
+			</div>
+			<div class="col-lg"></div>
+		</div>
+		
+	</div>
+</div>
+
+<!--<script src="include.js"></script>-->
 </body>
 </html>
