@@ -2,10 +2,10 @@
 body {
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
-  background-color: oldlace;
+  background-color:;
 }
  
- body .containerorange {
+ body .row {
  	background-color: lightcyan;
  }
 
@@ -143,4 +143,20 @@ section .row img {
 	height: 450px;
 }
 
+.stempic {
+	float: right;
+	max-height: 300px;
+}
 
+.source {
+	font-size: 8px;
+	font-color: black;
+}
+
+.plane {
+	float: left;
+}
+
+.pic {
+	display: inline-table;
+}
