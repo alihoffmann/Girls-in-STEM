@@ -2,12 +2,12 @@
 body {
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
-  background-color:;
+  background-color: white;
 }
  
- body .row {
- 	background-color: lightcyan;
- }
+.containerorange {
+	background-color: lightcyan;
+}
 
 header h1 {
   font-weight: 700;
@@ -159,4 +159,44 @@ section .row img {
 
 .pic {
 	display: inline-table;
+}
+
+.row.make-columns {
+    -moz-column-width: 19em;
+    -webkit-column-width: 19em;
+    -moz-column-gap: 1em;
+    -webkit-column-gap:1em; 
+}
+.row.make-columns > div {
+    display: inline-block;
+    padding:  .5rem;
+    width:  100%; 
+}
+
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+
+}
+
+.card-columns2 {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+
+}
+
+.card-columns .card-columns2 {
+	display: inline-block;
+}
+
+.title {
+	color: black;
 }

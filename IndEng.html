@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title class="title">Girls in STEM</title>
+  <title class="title">STEMclopedia</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
@@ -22,30 +22,116 @@
   <!--script to include-->
   <script src="https://www.w3schools.com/lib/w3.js"></script> 
   
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123738745-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'UA-123738745-1');
+</script>
+<link rel="shortcut icon" type="image/x-icon" href="https://i.imgur.com/KhDgxDc.png" />
 </head>
 <body>
-
+ <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="index.html">STEMclopedia</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="expand navbar-expand container navbarlink" id="navbarNavDropdown"> 
+      <!-- <div class="collapse navbar-collapse" id="navbarNavDropdown">  -->
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Why-STEM.html">Why STEM?</a>
+          </li>
+          <!-- Key Figures -->  
+       <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkKeyFigures" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Key Figures
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkKeyFigures">
+            <a class="dropdown-item" href="SarahAdler.html">Sarah Adler</a>
+            <a class="dropdown-item" href="#">Other Name</a>
+            <a class="dropdown-item" href="#">John Doe</a>
+          </div>
+      </li>-->
+      <!-- Jobs -->  
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkJobs" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Jobs
+        </a> 
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkJobs">
+          <!-- Engineering Careers -->  
+          <!-- <li class="dropdown-item" aria-labelledby="navbarDropdownMenuLink"> -->
+            <li class="dropdown-item">
+              <a class="nav-link dropdown-toggle color-black" href="#" id="navbarDropdownMenuLinkEngJobs" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Engineering</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkEngJobs">
+                <li><a class="dropdown-item" href="AerospaceEng.html">Aerospace Engineering</a></li>
+                <li><a class="dropdown-item" href="BiomedEng.html">Biomedical Engineering</a></li>
+                <li><a class="dropdown-item" href="ChemEng.html">Chemical Engineering</a></li>
+                <li><a class="dropdown-item" href="CivEng.html">Civil Engineering</a></li>
+                <li><a class="dropdown-item" href="CompEng.html">Computer Engineering</a></li>
+                <li><a class="dropdown-item" href="ElecEng.html">Electrical Engineering</a></li>
+                <li><a class="dropdown-item" href="IndEng.html">Industrial Engineering</a></li>
+                <li><a class="dropdown-item" href="Matsci.html">Materials Science and Engineering</a></li>
+                <li><a class="dropdown-item" href="MechEng.html">Mechanical Engineering</a></li>
+              </ul>
+            </li>
+            <!-- Technology --> 
+            <li class="dropdown-item">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkTechJobs" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Technology</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkTechJobs">
+                <li><a class="dropdown-item" href="InfoSec.html">Information Security</a></li>
+                <li><a class="dropdown-item" href="DataSci.html">Data Scientist</a></li>
+                <li><a class="dropdown-item" href="SoftEng.html">Software Engineering</a></li>
+              </ul>
+            </li>
+          </ul> 
+        </li>
+        <!-- How to Get Involved -->  
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkHowtoGetInvolved" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            How to Get Invovled
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkHowtoGetInvolved">
+            <a class="dropdown-item" href="challenges.html">Challenges & Activities</a>
+            <!--<a class="dropdown-item" href="#">Useful Links</a>-->
+            <a class="dropdown-item" href="programs.html">Programs & Organizations</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aboutme.html">About Me</a>
+        </li>       
+      </li>
+  </ul>
+</div>
+</nav>  
   <!--Nav Bar-->
   <!--<div w3-include-html="NavBar.html"></div> -->
 
 
   <div class="container explanationSTEM text-center containerorange">
     <div class= "row">
-      <div class= "col-lg"></div>
-      <div class="col-lg-8"> 
+      <div class= "col-sm"></div>
+      <div class="col-sm-10"> 
         <h1 class="WhySTEM color"> What is Industrial Engineering?</h1>
       </div>
-      <div class="col-lg"></div>
+      <div class="col-sm"></div>
     </div>
     <div class="row explanation containerorange">
-      <div class= "col-lg-2">
+      <div class= "col-sm-2">
       </div>
-      <div class="col-lg-8 color text-left">
+      <div class="col-sm-8 color text-left">
        <p> <b> industrial engineering (n): </b> engineering applied to the planning, design, and control of industrial operations
         <a href="https://www.dictionary.com/browse/industrial-engineering?s=t" class="source"> src: dictionary.com</a></p>
       </div>
-      <div class="col-lg">
+      <div class="col-sm">
       </div>
     </div>
   </br>
@@ -55,22 +141,22 @@
   <div class="col-sm"><h2 class="text-center"> But what does this mean?</h2></div>
 </div>
 <!--<div class="row">
-  <div class="col-sm-2"></div>--></br></br></br>
+  <div class="col-sm-2"></div>-->
   <div class= "row airplane">
     <div class="col-sm-2"></div>
-    <div class="col-sm" align="left">
-      <img src= "https://new.engineering.nyu.edu/sites/default/files/styles/content_header_default_1x/public/2018-03/program-industrial-eng.jpg?h=e1d1bc8a&itok=va7UWYnU"  border=10px class= "pic"/>
+    <div class="col-sm-4" align="left">
+      <img src= "https://new.engineering.nyu.edu/sites/default/files/styles/content_header_1024_2x/public/2018-03/program-industrial-eng.jpg?h=e1d1bc8a&itok=8qp9qBXu" border=10px class= "pic" width= 100% height= auto/>
     </div>
-      <div>
-        <p class="col-sm text-left"> Industrial engineers work in factories and help to design factories and processes which minimize waste. They attempt to eliminate wastefulness in the production of materials. They create systems which utilize workers, machines, materials, information, and energy to create this product.</p>
+      <div class="col-sm-4 text-left">
+        <p> Industrial engineers work in factories and help to design factories and processes which minimize waste. They attempt to eliminate wastefulness in the production of materials. They create systems which utilize workers, machines, materials, information, and energy to create this product.</p>
       </div>
-      <div class="col-sm-2"></div>
+      <div class="col-sm"></div>
   </div>
     <div class="row">
       <div class= "col-sm-2"></div>
       <div class= "col-sm text-left">
         <p><b> Let's break that down a bit further...</b></p>
-        <p> Industrial engineers work in many different industries. Their primary goal is to reduce waste. By reducing waste, they can create less harm to the environment, maximize profits, and decrease the cost of products for consumers. Industrial engineers use data and experiences to determine how to safely and efficiently manipulate production.</br></br>Industrial engineers are useful during the design of a factory and during remodeling. They are continuously working on projects to help maximize a process or factory. </p> </div>
+        <p> Industrial engineers work in many different industries. Their primary goal is to reduce waste. By reducing waste, they can create less harm to the environment, maximize profits, and decrease the cost of products for consumers. Industrial engineers use data and experiences to determine how to safely and efficiently manipulate production.</br></br>Industrial engineers are useful during the process of designing of a factory and remodeling the factory. They are continuously working on projects to help maximize a process or factory. With each job, there are constantly new problems to solve and new materials to order. It is imperative that industrial engineers, like most engineers, work well in groups because they work in teams to design processes.</p> </div>
         <div class="col-sm-2"></div>
       </div>
     </div>
@@ -80,7 +166,7 @@
   </div>
 </div>-->
 
-
+<script src="navbar.js" type="text/javascript"></script>
 <!--<script>
   w3.includeHTML();
 </script>-->
